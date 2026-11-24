@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>शुभ विवाह – नितीश & श्रेया | 26 जनवरी 2027</title>
+<meta name="description" content="चि. नितीश शाह (कसौधन) एवं अ. सौ. का. श्रेया शाह (कसौधन) के शुभ विवाह का निमंत्रण – मंगलवार, 26/01/2027, वापी (गुजरात)">
+<meta property="og:title" content="शुभ विवाह – नितीश & श्रेया">
+<meta property="og:description" content="आपको सादर आमंत्रित करते हैं – 26/01/2027, वापी (गुजरात)">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yatra+One&family=Tiro+Devanagari+Hindi:ital@0;1&family=Noto+Serif+Devanagari:wght@400;600;700&family=Cinzel+Decorative:wght@700&family=Cormorant+Garamond:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --maroon:#6b0f2a; --maroon-d:#430a1a; --gold:#d4a73c; --gold-l:#f3d98a;
+  --cream:#fff8ea; --sage:#e7ece6; --rose:#f6dfe3; --ink:#3a0a16;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Noto Serif Devanagari','Tiro Devanagari Hindi',serif;
+  color:var(--ink); background:var(--cream); line-height:1.8; overflow-x:hidden;
+}
+h1,h2,h3{font-family:'Yatra One','Tiro Devanagari Hindi',serif;font-weight:400}
+.gold-text{
+  background:linear-gradient(90deg,#b8862b,#f6e2a0,#c9962f,#f6e2a0,#b8862b);
+  background-size:200% auto;-webkit-background-clip:text;background-clip:text;color:transparent;
+  animation:shine 6s linear infinite;
+}
+@keyframes shine{to{background-position:200% center}}
+
+/* ---------- intro curtain ---------- */
+#curtain{
+  position:fixed;inset:0;z-index:100;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  background:radial-gradient(circle at 50% 40%,#8a1636,var(--maroon-d));color:var(--gold-l);text-align:center;
+  transition:transform 1.4s cubic-bezier(.77,0,.18,1),opacity 1.4s;cursor:pointer;padding:24px;
+}
+#curtain.open{transform:translateY(-100%);opacity:.2;pointer-events:none}
+#curtain .om{font-size:5rem;line-height:1;filter:drop-shadow(0 0 18px rgba(243,217,138,.7));animation:pulse 2.4s ease-in-out infinite}
+#curtain p{font-family:'Yatra One';font-size:1.5rem;margin-top:14px}
+#curtain small{margin-top:26px;border:1px solid var(--gold);padding:10px 26px;border-radius:40px;letter-spacing:.5px;animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{50%{transform:scale(1.07);opacity:.85}}
+
+/* ---------- hero ---------- */
+.hero{
+  min-height:100vh;position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;
+  text-align:center;padding:60px 18px 90px;color:#fff;
+  background:
+    radial-gradient(ellipse at 20% 15%,rgba(212,167,60,.28),transparent 45%),
+    radial-gradient(ellipse at 85% 80%,rgba(212,167,60,.22),transparent 45%),
+    linear-gradient(160deg,#7d1230 0%,var(--maroon) 45%,var(--maroon-d) 100%);
+  overflow:hidden;
+}
+.hero::before,.hero::after{
+  content:"";position:absolute;inset:14px;border:2px solid var(--gold);border-radius:18px;pointer-events:none;opacity:.8
+}
+.hero::after{inset:24px;border:1px dashed rgba(243,217,138,.55)}
+.ganesh{font-size:1.15rem;color:var(--gold-l);letter-spacing:.5px}
+.swastik{font-size:3rem;color:var(--gold);margin:6px 0;text-shadow:0 0 16px rgba(243,217,138,.6)}
+.hero h1{font-size:clamp(3rem,13vw,6.5rem);line-height:1.15;margin:6px 0}
+.date-pill{
+  display:inline-block;margin:10px 0 22px;padding:8px 26px;border:2px solid var(--gold);border-radius:12px;
+  font-weight:700;font-size:1.15rem;color:var(--gold-l);background:rgba(0,0,0,.18);letter-spacing:1px
+}
+.prefix{color:var(--gold-l);font-size:1.1rem}
+.name{font-family:'Yatra One';font-size:clamp(1.9rem,7.5vw,3.4rem);line-height:1.35}
+.name small{display:block;font-family:'Noto Serif Devanagari';font-size:.45em;color:var(--gold-l);opacity:.95}
+.ka{margin:12px 0;display:flex;align-items:center;gap:14px;justify-content:center;color:var(--gold-l);font-size:1.4rem}
+.ka::before,.ka::after{content:"";width:60px;height:1px;background:linear-gradient(90deg,transparent,var(--gold))}
+.ka::after{transform:scaleX(-1)}
+.heart{display:inline-block;animation:beat 1.6s infinite;color:#ff7a93}
+@keyframes beat{0%,100%{transform:scale(1)}15%{transform:scale(1.35)}30%{transform:scale(1)}45%{transform:scale(1.25)}}
+.scroll-hint{position:absolute;bottom:34px;color:var(--gold-l);font-size:.9rem;animation:bob 2s infinite}
+@keyframes bob{50%{transform:translateY(8px)}}
+
+/* petals */
+.petal{position:absolute;top:-30px;width:14px;height:14px;border-radius:70% 0 70% 0;opacity:.85;animation:fall linear infinite;pointer-events:none}
+@keyframes fall{to{transform:translateY(112vh) rotate(540deg) translateX(60px)}}
+
+/* ---------- sections ---------- */
+section{padding:70px 18px;position:relative}
+.wrap{max-width:900px;margin:0 auto}
+.title{text-align:center;color:var(--maroon);font-size:clamp(1.8rem,6vw,2.7rem);margin-bottom:6px}
+.divider{display:flex;align-items:center;justify-content:center;gap:10px;color:var(--gold);margin:4px 0 34px;font-size:1.3rem}
+.divider::before,.divider::after{content:"";height:2px;width:70px;background:linear-gradient(90deg,transparent,var(--gold))}
+.divider::after{transform:scaleX(-1)}
+
+.sage{background:linear-gradient(180deg,var(--sage),#f3f6f1)}
+.rose{background:linear-gradient(180deg,var(--rose),#fbeef0)}
+
+.shloka{
+  text-align:center;font-family:'Tiro Devanagari Hindi',serif;color:var(--maroon);font-size:1.15rem;
+  border-top:1px solid var(--gold);border-bottom:1px solid var(--gold);padding:18px 8px;max-width:760px;margin:0 auto 38px
+}
+.card{
+  background:#fff;border-radius:20px;padding:30px 24px;box-shadow:0 12px 40px rgba(107,15,42,.12);
+  border:1px solid rgba(212,167,60,.5);position:relative
+}
+.card::before{content:"";position:absolute;inset:7px;border:1px dashed rgba(212,167,60,.55);border-radius:14px;pointer-events:none}
+.poem{text-align:center;font-size:1.1rem;color:var(--maroon)}
+.poem p{margin-bottom:10px}
+.invite-text{text-align:center;font-size:1.08rem}
+.invite-text .em{color:var(--maroon);font-family:'Yatra One';font-size:1.7rem;display:block;margin:4px 0}
+.family{display:grid;grid-template-columns:1fr;gap:26px;margin:28px 0}
+@media(min-width:760px){.family{grid-template-columns:1fr 1fr}}
+.fam{background:linear-gradient(180deg,#fff,#fff7e4);border-radius:16px;padding:22px;border:1px solid rgba(212,167,60,.55);text-align:center}
+.fam h3{color:var(--maroon);font-size:1.5rem;margin-bottom:2px}
+.fam .tag{display:inline-block;font-size:.85rem;background:var(--maroon);color:var(--gold-l);padding:2px 16px;border-radius:20px;margin-bottom:10px}
+.fam p{font-size:1rem;margin:4px 0}
+.fam b{color:var(--maroon)}
+.blessing{text-align:center;margin-top:20px;font-size:1.1rem;color:var(--maroon)}
+
+/* countdown */
+.count{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:6px}
+.count div{
+  min-width:78px;padding:14px 10px;border-radius:16px;text-align:center;color:var(--gold-l);
+  background:linear-gradient(160deg,var(--maroon),var(--maroon-d));border:1px solid var(--gold);box-shadow:0 8px 20px rgba(67,10,26,.3)
+}
+.count b{display:block;font-family:'Cormorant Garamond',serif;font-size:2.2rem;line-height:1.1;color:#fff}
+.count span{font-size:.85rem}
+.count-note{text-align:center;margin-bottom:18px;color:var(--maroon)}
+
+/* timeline */
+.timeline{position:relative;max-width:760px;margin:0 auto}
+.timeline::before{content:"";position:absolute;left:26px;top:0;bottom:0;width:3px;background:linear-gradient(var(--gold),var(--maroon),var(--gold))}
+.ev{position:relative;padding-left:78px;margin-bottom:30px}
+.ev .dot{
+  position:absolute;left:0;top:0;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;font-size:1.6rem;
+  background:#fff;border:3px solid var(--gold);box-shadow:0 0 0 5px rgba(212,167,60,.18)
+}
+.ev .box{background:#fff;border-radius:16px;padding:18px 20px;border:1px solid rgba(212,167,60,.5);box-shadow:0 8px 26px rgba(107,15,42,.1)}
+.ev.main .box{background:linear-gradient(160deg,var(--maroon),var(--maroon-d));color:#fff;border-color:var(--gold)}
+.ev.main h3{color:var(--gold-l)}
+.ev h3{color:var(--maroon);font-size:1.45rem}
+.ev .when{font-weight:700;margin-top:2px}
+.ev .where{font-size:.98rem;margin-top:6px}
+.ev.main .when{color:var(--gold-l)}
+.btn{
+  display:inline-block;margin-top:12px;padding:8px 20px;border-radius:30px;text-decoration:none;font-size:.95rem;font-weight:600;
+  background:linear-gradient(135deg,#e7c25a,#b8862b);color:#3a0a16;transition:.25s;font-family:inherit;border:0;cursor:pointer
+}
+.btn:hover{transform:translateY(-2px);box-shadow:0 8px 18px rgba(184,134,43,.45)}
+.btn.dark{background:var(--maroon);color:var(--gold-l)}
+.note{
+  margin:34px auto 0;max-width:760px;text-align:center;border:2px solid var(--maroon);border-radius:18px;padding:16px 20px;color:var(--maroon);font-weight:600;background:rgba(255,255,255,.6)
+}
+
+/* venue */
+.venue{text-align:center;max-width:760px;margin:0 auto}
+.venue .card h3{color:var(--maroon);font-size:1.7rem}
+.phones a{display:inline-block;margin:4px 6px;color:var(--maroon);font-weight:700;text-decoration:none;border-bottom:1px dotted var(--gold)}
+
+/* names */
+.names-block{margin-bottom:34px;text-align:center}
+.names-block h3{color:var(--maroon);font-size:1.6rem;margin-bottom:8px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.chips span{padding:4px 16px;border-radius:30px;background:#fff;border:1px solid var(--gold);color:var(--maroon);font-size:1rem}
+.guest-list{display:grid;grid-template-columns:1fr;gap:10px;max-width:760px;margin:0 auto}
+@media(min-width:640px){.guest-list{grid-template-columns:1fr 1fr}}
+.guest-list div{display:flex;justify-content:space-between;gap:10px;background:#fff;border:1px solid rgba(212,167,60,.6);border-radius:12px;padding:8px 16px}
+.guest-list em{font-style:normal;color:#8a5a20}
+.winit{text-align:center;max-width:760px;margin:0 auto}
+.winit p{font-size:1.1rem;color:var(--maroon);font-weight:600}
+
+/* contact */
+.contact-card{text-align:center}
+.contact-card .nums{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin:14px 0}
+.nums a{padding:8px 18px;border-radius:30px;background:var(--maroon);color:var(--gold-l);text-decoration:none;font-weight:600}
+.nums a:hover{background:var(--maroon-d)}
+
+footer{
+  text-align:center;padding:50px 18px 70px;background:linear-gradient(160deg,var(--maroon),var(--maroon-d));color:var(--gold-l)
+}
+footer .big{font-family:'Yatra One';font-size:1.7rem;color:#fff}
+footer small{display:block;margin-top:10px;opacity:.8}
+
+/* reveal */
+.reveal{opacity:0;transform:translateY(34px);transition:opacity 1s,transform 1s}
+.reveal.in{opacity:1;transform:none}
+
+#share{position:fixed;right:16px;bottom:16px;z-index:50;width:54px;height:54px;border-radius:50%;border:2px solid var(--gold);
+  background:var(--maroon);color:var(--gold-l);font-size:1.4rem;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.35)}
+#music{position:fixed;left:16px;bottom:16px;z-index:50;width:54px;height:54px;border-radius:50%;border:2px solid var(--gold);
+  background:var(--maroon);color:var(--gold-l);font-size:1.3rem;cursor:pointer;box-shadow:0 6px 20px rgba(0,0,0,.35)}
+@media print{#curtain,#share,#music,.petal{display:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<!-- intro -->
+<div id="curtain" onclick="openInvite()">
+  <div class="om">ॐ</div>
+  <p>॥ श्री गणेशाय नमः ॥</p>
+  <p style="font-size:1.1rem;opacity:.9;margin-top:6px">शुभ विवाह का निमंत्रण</p>
+  <small>निमंत्रण खोलने के लिए छुएँ ✨</small>
+</div>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="ganesh">॥ श्री गणेशाय नमः ॥</div>
+  <div class="swastik">卐</div>
+  <h1 class="gold-text">शुभ विवाह</h1>
+  <div class="date-pill">मंगलवार दि: 26/01/2027</div>
+
+  <div class="prefix">चि.</div>
+  <div class="name gold-text">नितीश शाह <small>(कसौधन)</small></div>
+  <div class="ka"><span class="heart">❤</span> का शुभ विवाह <span class="heart">❤</span></div>
+  <div class="prefix">अ. सौ. का.</div>
+  <div class="name gold-text">श्रेया शाह <small>(कसौधन)</small></div>
+
+  <div class="scroll-hint">↓ नीचे देखें ↓</div>
+</header>
+
+<!-- GREETING / INVITE -->
+<section>
+  <div class="wrap">
+    <div class="shloka reveal">
+      वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ।<br>निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥<br>
+      सर्वमङ्गलमाङ्गल्ये शिवे सर्वार्थसाधिके।<br>शरण्ये त्र्यम्बके गौरि नारायणि नमोऽस्तु ते॥
+    </div>
+
+    <h2 class="title reveal gold-text" style="-webkit-text-fill-color:transparent">स्नेह निमंत्रण</h2>
+    <div class="divider reveal">❀ ✦ ❀</div>
+
+    <div class="card poem reveal" id="guestCard">
+      <p>भेज रहा हूँ स्नेह निमंत्रण, प्रियवर तुम्हें बुलाने को।<br>
+      हे मानस के राजहंस, तुम भूल न जाना आने को॥</p>
+      <p>सजा रहे यह प्रेम बगिया, ऊपर प्रेम की डाली से।<br>
+      श्रेया तुम भी सजी रहो, नितीश जैसे माली से॥</p>
+      <p id="guestLine" style="font-weight:700;margin-top:18px">मान्यवर श्री / श्रीमती <span id="guestName">__________</span>,</p>
+    </div>
+
+    <div class="card invite-text reveal" style="margin-top:28px">
+      परमपिता परमेश्वर की असीम अनुकम्पा से मेरे ज्येष्ठ सुपुत्र
+      <span class="em gold-text" style="-webkit-text-fill-color:transparent;background:linear-gradient(90deg,#8a1636,#6b0f2a);-webkit-background-clip:text;background-clip:text">चि. नितीश शाह (कसौधन)</span>
+      का शुभ विवाह
+      <span class="em" style="-webkit-text-fill-color:transparent;background:linear-gradient(90deg,#8a1636,#6b0f2a);-webkit-background-clip:text;background-clip:text">अ. सौ. का. श्रेया शाह (कसौधन)</span>
+      के साथ संवत २०८३, शाके १९४८, माघ मासे शुभे, मंगलवार, दिनांक २६-०१-२०२७ की मंगल शुभ बेला में होना निश्चित हुआ है।
+      <br><br>अतः इस अवसर पर आप सपरिवार पधारकर वर-वधू को शुभ आशीर्वाद प्रदान कर हमें अनुगृहीत करें।
+    </div>
+
+    <div class="family">
+      <div class="fam reveal">
+        <span class="tag">वर पक्ष</span>
+        <h3>चि. नितीश शाह (कसौधन)</h3>
+        <p><b>सुपुत्र –</b> संतोष रामधनी शाह</p>
+        <p><b>सुपौत्र –</b> स्व. रामधनी मंगरू शाह</p>
+        <p><b>मूल निवासी :-</b> एकवना, रकहट घाट, जि. देवरिया, (उत्तर प्रदेश)</p>
+        <p><b>वर्तमान निवासी :-</b> मु.पो. सोलसुंबा, मोहननगर, नियर राधिका रेसिडेन्सी, ता. उमरगाम, जि. वलसाड, (गुजरात)</p>
+      </div>
+      <div class="fam reveal">
+        <span class="tag">वधू पक्ष</span>
+        <h3>अ. सौ. का. श्रेया शाह (कसौधन)</h3>
+        <p><b>सुपुत्री –</b> श्री संजय कश्यप</p>
+        <p><b>सुपौत्री –</b> श्री रामपरसन कश्यप</p>
+        <p><b>मूल निवासी :-</b> ग्राम – मदनपुर, (गोला) पोस्ट मदनपुर, जिला – देवरिया, (उत्तर प्रदेश)</p>
+        <p><b>वर्तमान निवासी :-</b> मैंगो विला रो हाउस नं. ५३, अमरनगर, विनर्स स्कूल के पीछे, चनोद, वापी, गुजरात – ३९६१९१</p>
+      </div>
+    </div>
+
+    <p class="blessing reveal">🙏 आपकी उपस्थिति ही हमारे लिए सबसे बड़ा उपहार है 🙏</p>
+  </div>
+</section>
+
+<!-- COUNTDOWN -->
+<section class="rose">
+  <div class="wrap">
+    <h2 class="title reveal">शुभ घड़ी की गिनती</h2>
+    <div class="divider reveal">❀ ✦ ❀</div>
+    <p class="count-note reveal">बारात प्रस्थान – मंगलवार, 26/01/2027, सायं 3 बजे</p>
+    <div class="count reveal" id="count">
+      <div><b id="d">00</b><span>दिन</span></div>
+      <div><b id="h">00</b><span>घंटे</span></div>
+      <div><b id="m">00</b><span>मिनट</span></div>
+      <div><b id="s">00</b><span>सेकंड</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- EVENTS -->
+<section class="sage" id="events">
+  <div class="wrap">
+    <h2 class="title reveal">मांगलिक कार्यक्रम</h2>
+    <div class="divider reveal">❀ ✦ ❀</div>
+
+    <div class="timeline">
+      <div class="ev reveal">
+        <div class="dot">🏺</div>
+        <div class="box">
+          <h3>उरदी</h3>
+          <div class="when">शुक्रवार दि. 22/01/2027 को</div>
+          <div class="when" style="font-weight:500">सुबह 8 बजे से 11 बजे तक</div>
+        </div>
+      </div>
+
+      <div class="ev reveal">
+        <div class="dot">🌼</div>
+        <div class="box">
+          <h3>हल्दी मंडप एवं मटकोडवा</h3>
+          <div class="when">सोमवार दि. 25/01/2027 को</div>
+          <div class="when" style="font-weight:500">दोपहर 2 बजे से सायं तक</div>
+        </div>
+      </div>
+
+      <div class="ev main reveal">
+        <div class="dot">💍</div>
+        <div class="box">
+          <h3>शुभ विवाह</h3>
+          <div class="when">मंगलवार दि. 26/01/2027 को</div>
+          <div class="where">द्वितीया तिथि, रात्रि में शुभ बेला पर</div>
+          <div class="where">📍 नटराज एन्ड शिवम हॉल, होटल रॉयल इन, गुंजन सिनेमा कम्पाउन्ड, जी.आई.डी.सी., वापी</div>
+        </div>
+      </div>
+
+      <div class="ev reveal">
+        <div class="dot">🍽️</div>
+        <div class="box">
+          <h3>प्रीतिभोज</h3>
+          <div class="when">बुधवार दि. 27/01/2027 को</div>
+          <div class="when" style="font-weight:500">शाम 7 बजे से रात 11 बजे तक</div>
+          <div class="where">📍 राजस्थान सेवा समिति पार्टी प्लॉट, उमरगाम (W), Near M. K. Mehta</div>
+          <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Rajasthan+Seva+Samiti+Party+Plot+Umbergaon">🗺️ मार्ग देखें</a>
+        </div>
+      </div>
+
+      <div class="ev reveal">
+        <div class="dot">🌸</div>
+        <div class="box">
+          <h3>शुभ विदाई</h3>
+          <div class="when">बुधवार दि. 27/01/2027 को</div>
+          <div class="when" style="font-weight:500">प्रातः शुभ बेला पर</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="note reveal">
+      नोट :- मंगलवार दि. 26/01/2027 को बारात हमारे निवास स्थान से निजी साधन द्वारा सायं 3 बजे वापी के लिए प्रस्थान करेगी।
+    </div>
+  </div>
+</section>
+
+<!-- VENUE -->
+<section>
+  <div class="wrap venue">
+    <h2 class="title reveal">शुभ विवाह स्थल</h2>
+    <div class="divider reveal">❀ ✦ ❀</div>
+    <div class="card reveal">
+      <h3>नटराज एन्ड शिवम हॉल</h3>
+      <p>होटल रॉयल इन, गुंजन सिनेमा कम्पाउन्ड,<br>जी.आई.डी.सी., वापी</p>
+      <div class="phones" style="margin-top:12px">
+        मो. <a href="tel:+919890267130">9890267130</a>
+        <a href="tel:+918484842046">8484842046</a>
+        <a href="tel:+917753852801">7753852801</a>
+      </div>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Natraj+and+Shivam+Hall+Hotel+Royal+Inn+Gunjan+Cinema+GIDC+Vapi">🗺️ गूगल मैप पर देखें</a>
+    </div>
+  </div>
+</section>
+
+<!-- MITHE MANUHAR -->
+<section class="rose">
+  <div class="wrap">
+    <h2 class="title reveal">मीठे मनुहार</h2>
+    <div class="divider reveal">❀ ✦ ❀</div>
+    <div class="card poem reveal">
+      <p>खुशियों की रात होगी, जश्न जरा हट के होगा,<br>
+      हमारे भाई / चाचू / मामा की शादी में अंदाज जरा हटके होगा…..</p>
+      <div class="chips" style="margin-top:14px">
+        <span>निकिता</span><span>वेदिका</span><span>जानवी</span><span>मितिशा</span><span>शिदी</span><span>आरव</span><span>आर्यन</span><span>आयुष</span><span>सिद्धि</span><span>सृष्टि</span><span>सिद्धार्थ</span><span>सारांश</span><span>रिधविका</span><span>आदित्री</span><span>शिवाय</span><span>आलोक</span><span>सानवी</span><span>इसानी</span><span>……</span>
+      </div>
+    </div>
+
+    <div class="names-block reveal" style="margin-top:44px">
+      <h3>॥ दर्शनाभिलाषी ॥</h3>
+      <div class="chips">
+        <span>दीपक</span><span>कुलदीप</span><span>अमरदीप</span><span>संदीप</span><span>विकास</span><span>वेदांत</span><span>ओमकार</span><span>ओमकेश्वर</span><span>निखिल</span><span>निशांत</span><span>आयुष</span><span>आदर्श</span>
+      </div>
+      <p style="margin-top:14px;color:var(--maroon);font-weight:600">एवं समस्त शाह परिवार</p>
+    </div>
+  </div>
+</section>
+
+<!-- MUKHYA ATITHI -->
+<section class="sage">
+  <div class="wrap">
+    <h2 class="title reveal">॥ मुख्य अतिथी ॥</h2>
+    <div class="divider reveal">❀ ✦ ❀</div>
+    <div class="guest-list reveal">
+      <div>जवारलाल शाह <em>तलासरी</em></div>
+      <div>अजय शाह <em>सूरत</em></div>
+      <div>जगदीश शाह <em>कल्याण</em></div>
+      <div>सुमीत शाह <em>गोरेगांव</em></div>
+      <div>गणेशलाल शाह <em>दाहोद</em></div>
+      <div>रामप्रसाद शाह <em>अहमदाबाद</em></div>
+      <div>जगदीश शाह <em>सिलवासा</em></div>
+      <div>सुदेश गुप्ता <em>अमरनाथ</em></div>
+      <div>शिवशंकर शाह <em>तलासरी</em></div>
+      <div>मुन्ना गुप्ता <em>विरार</em></div>
+      <div>दिनेश गुप्ता <em>माहिम</em></div>
+      <div>दिलीप गुप्ता <em>बड़ौदा</em></div>
+      <div>हरि ओम शाह <em>गजपुर</em></div>
+      <div>नवनीत गुप्ता <em>अयोध्या</em></div>
+    </div>
+
+    <div class="winit reveal" style="margin-top:46px">
+      <h2 class="title" style="font-size:1.9rem">॥ विनीत ॥</h2>
+      <div class="divider">❀ ✦ ❀</div>
+      <p>झब्बूलाल नगरू शाह, अशोक शाह, कन्हैया शाह,<br>संतोष शाह, सुरेंद्र शाह, विष्णु शाह, कपिल शाह</p>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section>
+  <div class="wrap">
+    <h2 class="title reveal">निमंत्रक</h2>
+    <div class="divider reveal">❀ ✦ ❀</div>
+    <div class="card contact-card reveal">
+      <h3 style="font-size:1.8rem;color:var(--maroon)">संतोष रामधनी शाह (कसौधन)</h3>
+      <p>वर्तमान निवास – मु.पो. सोलसुंबा, मोहननगर,<br>नियर राधिका रेसिडेन्सी, ता. उमरगाम, जि. वलसाड, (गुजरात)</p>
+      <div class="nums">
+        <a href="tel:+919974750405">📞 9974750405</a>
+        <a href="tel:+919879264649">📞 98792 64649</a>
+        <a href="tel:+919898292239">📞 9898292239</a>
+        <a href="tel:+917405038203">📞 7405038203</a>
+        <a href="tel:+919510145829">📞 9510145829</a>
+      </div>
+      <a class="btn" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Solsumba+Mohan+Nagar+Umbergaon+Valsad">🗺️ निवास का पता मैप पर</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="swastik" style="font-size:2.4rem">卐</div>
+  <div class="big">आपके आगमन की प्रतीक्षा में 🙏</div>
+  <p style="margin-top:8px">नितीश ❤ श्रेया · 26.01.2027 · वापी (गुजरात)</p>
+  <small>॥ श्री गणेशाय नमः ॥</small>
+</footer>
+
+<button id="music" title="संगीत">🔇</button>
+<button id="share" title="शेयर करें">📤</button>
+
+<script>
+/* guest name from link: ?guest=नाम */
+(function(){
+  try{
+    var g=new URLSearchParams(location.search).get('guest');
+    if(g){document.getElementById('guestName').textContent=g.slice(0,60)}
+  }catch(e){}
+})();
+
+/* curtain */
+function openInvite(){
+  document.getElementById('curtain').classList.add('open');
+  document.body.style.overflow='';
+}
+document.body.style.overflow='hidden';
+
+/* petals */
+(function(){
+  var hero=document.querySelector('.hero');
+  var cols=['#ffb3c1','#f3d98a','#ff7a93','#ffd6a5','#fff'];
+  for(var i=0;i<26;i++){
+    var p=document.createElement('i');p.className='petal';
+    p.style.left=Math.random()*100+'%';
+    p.style.background=cols[i%cols.length];
+    p.style.width=p.style.height=(8+Math.random()*12)+'px';
+    p.style.animationDuration=(7+Math.random()*9)+'s';
+    p.style.animationDelay=(-Math.random()*14)+'s';
+    hero.appendChild(p);
+  }
+})();
+
+/* reveal on scroll */
+var io=new IntersectionObserver(function(es){
+  es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})
+},{threshold:.15});
+document.querySelectorAll('.reveal').forEach(function(el){io.observe(el)});
+
+/* countdown – 26 Jan 2027, 3 PM IST */
+var target=new Date('2027-01-26T15:00:00+05:30').getTime();
+function pad(n){return String(n).padStart(2,'0')}
+function tick(){
+  var diff=target-Date.now();
+  if(diff<0){diff=0}
+  var d=Math.floor(diff/864e5),h=Math.floor(diff%864e5/36e5),m=Math.floor(diff%36e5/6e4),s=Math.floor(diff%6e4/1e3);
+  document.getElementById('d').textContent=pad(d);
+  document.getElementById('h').textContent=pad(h);
+  document.getElementById('m').textContent=pad(m);
+  document.getElementById('s').textContent=pad(s);
+}
+tick();setInterval(tick,1000);
+
+/* share */
+document.getElementById('share').onclick=function(){
+  var data={title:'शुभ विवाह – नितीश & श्रेया',text:'आप सपरिवार सादर आमंत्रित हैं – 26/01/2027, वापी (गुजरात) 🙏',url:location.href.split('?')[0]};
+  if(navigator.share){navigator.share(data).catch(function(){})}
+  else{window.open('https://wa.me/?text='+encodeURIComponent(data.text+' '+data.url),'_blank')}
+};
+
+/* optional soft music: put an mp3 file named "music.mp3" next to this file */
+var audio=null,btn=document.getElementById('music');
+btn.onclick=function(){
+  if(!audio){audio=new Audio('music.mp3');audio.loop=true}
+  if(audio.paused){audio.play().then(function(){btn.textContent='🔊'}).catch(function(){btn.textContent='🔇'})}
+  else{audio.pause();btn.textContent='🔇'}
+};
+</script>
+</body>
+</html>
